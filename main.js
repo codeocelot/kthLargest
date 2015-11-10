@@ -1,5 +1,6 @@
 //Kth largest element in array
 
+// this implementation has O(n^2) time.  Not great, but acceptable for small inputs
 function sort(arr){
   for(var i =0;i<arr.length;i++){
     var j = i, k = i + 1;
